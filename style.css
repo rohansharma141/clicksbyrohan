@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;    /* to bring text and colour in center*/
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar{
+    display: flex; /* they will come in one line, instead of next line because of li*/
+    height: 67px;
+    
+}
+
+.navbar li{
+    list-style: none; /* to remove the bullets*/
+    margin: 0 12px;
+    
+}
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+.section1{
+height: 50vh;
+}
+
+.section2{
+    
+}
+
+.section3{
+    
+}
+
+.photography-img{
+    width: 300px;
+    align-self: center;
+}
